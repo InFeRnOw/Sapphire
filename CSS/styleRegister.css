@@ -1,0 +1,403 @@
+body
+{
+	background-color: #232626 !important;
+}
+/* EDUCATION */
+
+.education
+{
+	background-color: #dddddd;
+}
+@media screen and (min-width: 768px){
+	.education-block
+	{
+		height: 36em;
+		width: 46.75% !important;
+	    margin: 0 auto;
+	    text-align: center;
+	    padding: 30px;
+	    background: #141414;
+	    border-radius: 0px;
+	    border: none;
+	    margin-bottom: 20px;
+	}
+	.education-block-bas
+	{
+	height: 12em;
+	width: 46.78% !important;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #141414;
+    border-radius: 1px;
+    margin-bottom: 20px;
+	}
+	.chooseUsername
+	{
+		background-color: #a9a9a9;
+		border: none;
+		border-radius: 0px;
+		height: 30px;
+		width: 95% !important;
+		margin-right: 80%;
+		margin-top: 1%;
+	}
+	.choosePassword
+	{
+		background-color: #a9a9a9;
+		border: none;
+		border-radius: 0px;
+		height: 30px;
+		width: 95% !important;
+		margin-right: 80%;
+		margin-top: 1% !important; 
+	}
+	.choosePasswordConfirm
+	{
+		background-color: #a9a9a9;
+		border: none;
+		border-radius: 0px;
+		height: 30px;
+		width: 40% !important;
+		margin-right: 80%;
+		margin-top: 1%;
+	}
+	.chooseEmail
+	{
+		background-color: #a9a9a9;
+		border: none;
+		border-radius: 0px;
+		height: 30px;
+		width: 95%;
+		margin-right: 80%;
+		margin-top: 1%;
+	}
+	.chooseEmailConfirm
+	{
+		background-color: #a9a9a9;
+		border: none;
+		border-radius: 0px;
+		height: 30px;
+		width: 95%;
+		margin-right: 80%;
+	}
+	.chooseCountry
+	{
+		background-color: #a9a9a9;
+		border: none;
+		border-radius: 0px;
+		height: 30px;
+		width: 95%;
+		margin-right: 80%;
+		margin-top: 1%;
+	}
+	.btnRegister
+	{
+		background-color: #0075b1;
+		border: none;
+		margin-top: 0% !important;
+		height: 5%;
+		padding: 0.85% 0 0.85% 0;
+		width: 135px !important;
+		color: #fff;
+		font-weight: bold;
+		float: left;
+	}
+	.createAccountText
+	{
+		position: relative;
+		margin-left: 0%;
+		margin-top: 4% !important;
+		font-weight: bold;
+	}
+	.glyphicon
+	{
+		font-size: 35px;
+		color: #fff;
+		position: absolute;
+		margin-bottom: 15%;
+		margin-right: 25%;
+		float: left;
+	}
+	.imageLogo
+	{
+		position: relative;
+		top: 10px;
+		margin-left: 0% !important;
+		height: 6% !important; 
+		width: 11% !important;
+	}
+}
+.education-block
+{
+	height: 36em;
+	width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #141414;
+    border-radius: 1px;
+    /*border: 2px solid #ccc;*/
+    margin-bottom: 20px;
+
+}
+.education-block-bas
+{
+	height: 12em;
+	width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #141414;
+    border-radius: 1px;
+    margin-bottom: 20px;
+}
+
+/* SECTION */
+
+section
+{
+    padding: 45px 0px 80px 0px;
+}
+section .heading
+{
+    text-align: center;
+    padding-bottom: 40px;
+}
+section .heading h2
+{
+    text-transform: uppercase;
+}
+/* CONTAINER */
+
+.timeline-panel-container
+{
+    width: 50%;
+    float: left;
+}
+.timeline-panel-container-inverted
+{
+    width: 50%;
+    float: right;
+}
+.timeline-panel-container-inverted .timeline-panel
+{
+    float: left;
+    margin-left: 40px;
+}
+.timeline-panel-container-inverted .timeline-panel:after
+{
+    border-left-width: 0px;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+/* ABOUT */
+
+#about
+{
+    background: #232626;
+    padding: 150px 0px 0px 0px;
+}
+/* INPUT */
+
+.chooseUsername
+{
+	background-color: #a9a9a9;
+	border: none;
+	border-radius: 0px;
+	height: 30px;
+	width: 50% !important;
+	margin-right: 80%;
+	margin-top: 1%;
+}
+.choosePassword
+{
+	background-color: #a9a9a9;
+	border: none;
+	border-radius: 0px;
+	height: 30px;
+	width: 50% !important;
+	margin-right: 80%;
+	margin-top: 4%;
+}
+.choosePasswordConfirm
+{
+	background-color: #a9a9a9;
+	border: none;
+	border-radius: 0px;
+	height: 30px;
+	width: 50% !important;
+	margin-right: 80%;
+	margin-top: 1%;
+}
+.chooseEmail
+{
+	background-color: #a9a9a9;
+	border: none;
+	border-radius: 0px;
+	height: 30px;
+	width: 50%;
+	margin-right: 80%;
+	margin-top: 1%;
+}
+.chooseEmailConfirm
+{
+	background-color: #a9a9a9;
+	border: none;
+	border-radius: 0px;
+	height: 30px;
+	width: 50% !important;
+	margin-right: 80%;
+	margin-top: 1%;
+}
+.chooseCountry
+{
+	background-color: #a9a9a9;
+	border: none;
+	border-radius: 0px;
+	height: 30px;
+	width: 50%;
+	margin-right: 80%;
+	margin-top: 1%;
+}
+.checkboxThermAccept
+{
+	position: relative;
+	margin-left: 1%;
+	margin-top: 1.25% !important;
+	float: left !important;
+}
+.checkboxPrivacy
+{
+	position: relative;
+	margin-left: 1%;
+	margin-top: 0% !important;
+	float: left !important;
+}
+.checkboxYears
+{
+	position: relative;
+	margin-left: 1%;
+	margin-top: 0% !important;
+	float: left !important;
+}
+/* H */
+
+/*@media screen and(min-width: 768px)
+{
+	.education-block-special
+	{
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 5%;
+	width: 80% !important;
+	font-family: Arial;
+	}
+}*/
+.usernameStyle h2
+{
+	text-align: center;
+	margin-top: 15%;
+	font-weight: bold;
+	font-family: Arial;
+	float: left;
+}
+.passwordStyle h2
+{
+	text-align: center;
+	margin-top: 5%;
+	font-weight: bold;
+	font-family: Arial;	
+	float: left;
+}
+h1
+{
+	color: #fff;
+	text-align: left;
+	margin-top: 0%;
+	margin-left: 0%;
+	font-family: Arial;
+
+}
+h4
+{
+	color: #fff;
+	text-align: left;
+}
+h5
+{
+	color: #fff;
+	text-align: left;
+}
+.createAccountText
+{
+	position: absolute;
+	margin-left: 0%;
+	margin-top: 6%;
+	font-weight: bold;
+	font-size: 200%;
+}
+.toutLeBordel
+{
+	color: white;
+	text-align: center;
+	margin-top: 5%;
+
+}
+
+
+/* GLYPHICON*/
+
+.glyphicon
+{
+	font-size: 35px;
+	color: #fff;
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 8.5%;
+}
+
+/* DIVIDER */
+
+.blue-divider
+{
+    width: auto;
+    height: 2px;
+    background: #0075b1;
+    margin: 0 auto;
+}
+/* BOUTON */
+
+.btnRegister
+{
+	background-color: #0075b1;
+	border: none;
+	margin-top: 4%;
+	height: 5%;
+	padding: 0.85% 0 0.85% 0;
+	width: 135px !important;
+	color: #fff;
+	font-weight: bold;
+	margin-left: 0% !important;
+}
+
+/* ROW & COL */
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/* IMAGES */
+.imageLogo
+{
+position: relative;
+top: 10px;
+left: 10px;
+height: 30% !important; 
+width: 55%;
+margin-left: 20%;
+}
